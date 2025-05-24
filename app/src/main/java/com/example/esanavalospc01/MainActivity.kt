@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.esanavalospc01.HOME.Catalago
 import com.example.esanavalospc01.HOME.EdadCanina
 import com.example.esanavalospc01.navigation.NavigationMenu
 import com.example.esanavalospc01.ui.theme.EsanAvalospc01Theme
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             EsanAvalospc01Theme {
-                    NavigationMenu()
+
                 }
             }
         }
